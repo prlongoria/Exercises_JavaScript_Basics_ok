@@ -5,6 +5,7 @@ export function returnHello()
 
 export function returnAString()
 {
+   return ("Hello World");
     /* Completa la function */
     
     
@@ -15,13 +16,16 @@ export function concatenateStrings()
     /* Completa la function */
     const firstWord = 'I';
     const secondWord = 'Love';
+    return firstWord + " " + secondWord + " " + 'JS';
     
 }
 
-export function giveOneLetter()
+export function giveOneLetter(animal)
 {
     /* Completa la function */
-    const dog = 'dog';
+    //const dog = 'dog';
+    return animal.slice(-1);
+    //return animal.search ('g');
 }
 
 export function giveTheIndexOfWord()
