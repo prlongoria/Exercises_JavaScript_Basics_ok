@@ -37,8 +37,11 @@ describe('Variables can be a string', () => {
 
     test.skip('should return -1', () => {
         /* Añade las líneas necesarias al test / Modifica la function giveTheIndexOfWord */
-
-        expect().toEqual(-1);
+        //Given const phrase && const wordToSearch
+        //When const result = giveTheIndexOfWord()
+        const result = giveTheIndexOfWord();
+        //Then
+        expect(result).toEqual(-1);
     });
 
     test.skip('should return "Give a Man a Pussy Cat" ', () => {

@@ -32,7 +32,7 @@ export function giveTheIndexOfWord()
 {
     const wordToSearch = 'Butterfly';
     const phrase = "Once upon a time!!!";
-    
+    //return phrase.indexOf(wordToSearch);
 }
 
 export function replaceFishWords()
